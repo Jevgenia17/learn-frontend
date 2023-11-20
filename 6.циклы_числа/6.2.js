@@ -1,7 +1,6 @@
-/*
-let n = 7;
-let prev1 = 1;
-let prev2 = 2;
+// let n = 7;
+// let prev1 = 1;
+// let prev2 = 2;
 
 let i = 1;
 while (i <= n) {
@@ -15,4 +14,3 @@ while (i <= n) {
     }
     i++;
 } // цикл while 
-*/

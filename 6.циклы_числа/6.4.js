@@ -1,6 +1,6 @@
 //(количество разрядов)
 
-/*
+
 let num = 365;
 let count = 0;
 
@@ -11,4 +11,3 @@ while(num > 1) {
 }
 
 console.log(`count ${count}`);
-*/

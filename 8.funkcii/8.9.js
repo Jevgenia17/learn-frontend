@@ -5,7 +5,7 @@
 Она должна возвращать новый массив только с отрицательными числами.
 */
 
-/*
+
 const arr = [43, -23, -12, 5, -1, 42];
 
 function filter(arr) {
@@ -20,4 +20,3 @@ function filter(arr) {
 }
 
 const arrWithNegative = filter(arr);
-*/

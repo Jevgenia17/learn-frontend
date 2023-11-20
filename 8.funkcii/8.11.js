@@ -5,7 +5,6 @@
 Она должна возвращать `true`, если в массиве все числа двузначные, иначе `false`.
 */
 
-/*
 function every(arr) {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] > 10) {
@@ -21,4 +20,3 @@ const arr4 = [9, 6, 76, 3, 32]
 
 console.log(every(arr3)); // true
 console.log(every(arr4)); // false
-*/

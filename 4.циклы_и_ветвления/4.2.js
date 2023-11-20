@@ -4,18 +4,18 @@
 
 Пример (n = 5) */
 
-/* let n = 5;
+// let n = 5;
 
 for(let i = 0; i < n; i++) {
   if (i % 2 === 0) {
     console.log(i);
   }
-} */
+}
 
-/* let n = 10;
+// let n = 10;
 
 for (let i = 0; i < n; i++) {
     if (i % 2 === 0) {
         console.log(i);
     }
-} */
+}

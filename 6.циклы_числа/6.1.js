@@ -1,4 +1,3 @@
-/*
 let n = 7;
 let prev1 = 1;
 let prev2 = 1;
@@ -12,5 +11,4 @@ for(let i = 0; i <= n - 1; i++) {
     prev2 = number;
     console.log(number);
     }
-} число фибоначчи 
-*/
+} //число фибоначчи 

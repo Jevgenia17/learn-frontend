@@ -2,15 +2,14 @@
 //Подсказка: с помощью метода `includes` можно проверить положили ли вы уже такой элемент в новый массив.
 //Пример: `let a = [1, 4, 10, 10, 4, 2, 10, 0];`
 
-/*
+
 let a = [1, 4, 10, 10, 4, 2, 10, 0];
 let b = [];
 
 for(let i = 0; i < a.lenght; i++) {
-  if (!b.includes(a[i])) {  (метод includes)
+  if (!b.includes(a[i])) {  // (метод includes)
     b.push(a[i]);
   }
 }
 
 console.log(b);
-*/

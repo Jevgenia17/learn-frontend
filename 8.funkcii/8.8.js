@@ -5,7 +5,7 @@
 Она должна возвращать новый массив с квадратами элементов переданного массива.
 */
 
-/* const arr = [1, 2, 3, 4];
+const arr = [1, 2, 3, 4];
 
 function map(arr) {
     let newArr = [];
@@ -20,4 +20,3 @@ function map(arr) {
 const arrWithSquare = map(arr);
 
 console.log(arrWithSquare); // [1, 4, 9, 16]
-*/

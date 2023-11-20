@@ -6,7 +6,7 @@
 
 Пример (n = 10) */
 
-/* let n = 10;
+// let n = 10;
 let str = '';
 
 for(let i = 0; i < n; i++){
@@ -17,4 +17,4 @@ for(let i = 0; i < n; i++){
         str = str + '1';
     }
 }
-console.log(str); */
+console.log(str); 
