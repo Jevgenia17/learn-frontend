@@ -20,6 +20,7 @@ function isEqual(array1, array2){
 */
 
 // второе решение
+/*
 function isEqual(array1, array2){
     let result = false;
 
@@ -36,6 +37,38 @@ function isEqual(array1, array2){
     }
     return result;
 }
+*/
+// метод массивов
+
+function isEqual(arr1, arr2) {
+    let result = true;
+
+    if(arr1.length !== arr2.length) {
+        result = false;
+    } else {
+        result = arr1.every((elem, index) => { //метод every
+            if(elem !== arr2[index]) {
+                return false;
+            } else {
+                return true;
+            }
+        })
+    }
+}
+
+// более сокращенно
+
+function isEqual(arr1, arr2) {
+    let result = true;
+
+    if (arr1.length !== arr2.length) {
+        result = false;
+    } else {
+       result = arr1.every((elem, index) => elem === arr2[index]);
+    }
+
+    return result;
+}
+
 console.log(isEqual(arr1, arr2)); // true
 
-// конспект , переписать задачи предыдущие, и 1 и 2 задачу переписать
