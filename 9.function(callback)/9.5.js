@@ -40,3 +40,11 @@ const newArr3 = filter(arr3, myCallbackFuncTwo);
 console.log(newArr2); // [2, 42, 8]
 console.log(newArr3); // [];
 
+//  решение методом filter 
+
+const newArray1 = arr2.filter((element) => (element % 2 === 0));
+
+console.log(newArray1);
+
+const newArray2 = arr3.filter((element) => (element % 2 === 0));
+console.log(newArray2);

@@ -22,3 +22,9 @@ const array = [1, 2, 3, 4, 5];
 
 const result = map(array, myCallbackFunc);
 console.log(result); // [1, 4, 9, 16, 25]
+
+//решение методом map
+
+const result1 = array.map((elem) => elem * elem);
+
+console.log(result1); 

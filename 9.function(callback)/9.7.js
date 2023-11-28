@@ -42,3 +42,10 @@ const elem2 = find(arrFour, myCallbackFuncFour);
 
 console.log(elem1); // "apple"
 console.log(elem2); // undefined
+
+//решение методом find
+const elemOne = arrThree.find((element) => (element === "apple"));
+console.log(elemOne);
+
+const elemTwo = arrFour.find((element) => (element === "apple"));
+console.log(elemTwo);

@@ -29,3 +29,14 @@ const newArr1 = map(arr, myCallback);
 
 const resultFunc = map(arr1, myCallback);
 console.log(resultFunc); // [0, 0, 1, 1, 0, 1, 0]
+
+// решение методом map
+
+const resultFunc1 = arr1.map((element) => {
+    if(element === 1) {
+        return 0;
+    } else {
+        return 1;
+    }
+});
+console.log(resultFunc1);

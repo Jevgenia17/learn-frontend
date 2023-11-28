@@ -15,3 +15,9 @@ function showElementAndIndex(elem, i) {
 
 const a = [1, 2, 3, 4, 5];
 forEach(a, showElementAndIndex);
+
+// решение методом forEach
+
+a.forEach((element, index) => {
+    console.log(`Элемент ${element} с индексом ${index}`);
+});

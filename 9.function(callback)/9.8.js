@@ -36,5 +36,9 @@ const resultTwo = find(arr6, myCallbackFuncFive);
 console.log(resultOne); // 3
 console.log(resultTwo); // undefined
 
-// const resultOne = arr5.find((element) => element % 5 === 3);
-// const resultTwo = arr6.find((element) => element % 5 === 3);
+// решение методом find
+const resultOne1 = arr5.find((element) => element % 5 === 3);
+console.log(resultOne1);
+
+const resultTwo2 = arr6.find((element) => element % 5 === 3);
+console.log(resultTwo2);

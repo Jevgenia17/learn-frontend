@@ -32,3 +32,11 @@ const newArrTwo = filter(arrTwo, myCallbackFuncThree);
 
 console.log(newArrOne); // ["i", "phone", "42"] 
 console.log(newArrTwo); // []
+
+// методом filter
+
+const resultNewArr1 = arrOne.filter((element) => (typeof element === "string"));
+console.log(resultNewArr1);
+
+const resultNewArr2 = arrTwo.filter((element) => (typeof element === "string"));
+console.log(resultNewArr2);

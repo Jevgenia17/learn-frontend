@@ -36,5 +36,3 @@ function withoutEmpty(array) {
 // let res = Boolean(array[i]); // преобразовывает в true || false.
 // console.log(`${array[i]} ${res}`);  // 1 true; и тд.
 
-// выбрать метод массивов и решить
-// 10.7 не решать Решать до 10.6

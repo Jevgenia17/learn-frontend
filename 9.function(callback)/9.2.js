@@ -20,3 +20,10 @@ function myCallbackFunc(elem, i ,sum){
 const arr = [1, 2, 3, 4, 5];
 
 forEach(arr, myCallbackFunc);
+
+// решением методом forEach 
+
+arr.forEach((element, index) => {
+  const sum = element + index;
+  console.log(`${element} + ${index} = ${sum}`);
+});
